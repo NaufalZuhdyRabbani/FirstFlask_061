@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pribadi Naufal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=VT323&display=swap');
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="wrap">
+            <div class="logo"><a href="">BlokNaufal</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-naufal">About Naufal</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#archive">Archive</a></li>
+                    <li><a href="#partnership">Partnership</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#signup" class="tbl biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrap">
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/website-designer-concept-illustration_114360-4449.jpg?t=st=1732449988~exp=1732453588~hmac=e70113859dc0b3a98be4feff2a3a84ed2b0dd7fa37438f17914b8543ff3e6bd9&w=740" alt="">
+            <div class="kolom">
+                <p class="deskripsi">Belajar Menjadi Web Designer #dikamar</p>
+                <h2>Tetap Semangat, Jangan Menyerah</h2>
+                <p>"Jangan pernah menyerah! Setiap langkah kecil dalam belajar web design membawa kamu lebih dekat ke impianmu. Terus berusaha, karena setiap tantangan adalah kesempatan untuk berkembang!"</p>
+            </div>
+        </section>
+
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <input type="submit" value="Sign Up">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
